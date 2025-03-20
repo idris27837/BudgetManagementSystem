@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManagementSystem.API", "BudgetManagementSystem.API\BudgetManagementSystem.API.csproj", "{B890BFF7-0729-4DF0-BD73-5DEA7817D615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.API", "BudgetManagementSystem.API\BudgetManagementSystem.API.csproj", "{B890BFF7-0729-4DF0-BD73-5DEA7817D615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManagementSystem.Web", "BudgetManagementSystem.Web\BudgetManagementSystem.Web.csproj", "{5FDE1A53-FD6F-4DFA-963B-54E5CCA373CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.Web", "BudgetManagementSystem.Web\BudgetManagementSystem.Web.csproj", "{5FDE1A53-FD6F-4DFA-963B-54E5CCA373CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{91099CC9-BBE5-46F2-A852-E2AE13C68AC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManagementSystem.ViewModels", "Services\BudgetManagementSystem.ViewModels\BudgetManagementSystem.ViewModels.csproj", "{40F39A37-2BD9-4800-8AA9-F98AE4271DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.ViewModels", "Services\BudgetManagementSystem.ViewModels\BudgetManagementSystem.ViewModels.csproj", "{40F39A37-2BD9-4800-8AA9-F98AE4271DD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManagementSystem.Infrastructure", "Services\BudgetManagementSystem.Infrastructure\BudgetManagementSystem.Infrastructure.csproj", "{B71E094C-8028-49B9-98EF-EFAA539BF065}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.Infrastructure", "Services\BudgetManagementSystem.Infrastructure\BudgetManagementSystem.Infrastructure.csproj", "{B71E094C-8028-49B9-98EF-EFAA539BF065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManagementSystem.Utilities", "Services\BudgetManagementSystem.Utilities\BudgetManagementSystem.Utilities.csproj", "{85B647F2-AFE8-4F15-ABC0-5710BC35EE0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.Utilities", "Services\BudgetManagementSystem.Utilities\BudgetManagementSystem.Utilities.csproj", "{85B647F2-AFE8-4F15-ABC0-5710BC35EE0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManagementSystem.Models", "Services\BudgetManagementSystem.Models\BudgetManagementSystem.Models.csproj", "{7F7D7111-3824-4C2A-87EC-BE61FBAAD4B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.Models", "Services\BudgetManagementSystem.Models\BudgetManagementSystem.Models.csproj", "{7F7D7111-3824-4C2A-87EC-BE61FBAAD4B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManagementSystem.BusinessLogic", "Services\BudgetManagementSystem.BusinessLogic\BudgetManagementSystem.BusinessLogic.csproj", "{3156D252-097C-4067-931C-6098E7399A3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.BusinessLogic", "Services\BudgetManagementSystem.BusinessLogic\BudgetManagementSystem.BusinessLogic.csproj", "{3156D252-097C-4067-931C-6098E7399A3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManagementSystem.DataAccessLayer", "Services\BudgetManagementSystem.DataAccessLayer\BudgetManagementSystem.DataAccessLayer.csproj", "{E75FCB98-1893-4B87-8979-B4497A238452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.DataAccessLayer", "Services\BudgetManagementSystem.DataAccessLayer\BudgetManagementSystem.DataAccessLayer.csproj", "{E75FCB98-1893-4B87-8979-B4497A238452}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompetencyApp.DataAccessLayer", "Services\CompetencyApp.DataAccessLayer\CompetencyApp.DataAccessLayer.csproj", "{001E5377-A8C7-44FE-9422-04209738A6FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{E75FCB98-1893-4B87-8979-B4497A238452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E75FCB98-1893-4B87-8979-B4497A238452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E75FCB98-1893-4B87-8979-B4497A238452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001E5377-A8C7-44FE-9422-04209738A6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001E5377-A8C7-44FE-9422-04209738A6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001E5377-A8C7-44FE-9422-04209738A6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001E5377-A8C7-44FE-9422-04209738A6FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{7F7D7111-3824-4C2A-87EC-BE61FBAAD4B9} = {91099CC9-BBE5-46F2-A852-E2AE13C68AC2}
 		{3156D252-097C-4067-931C-6098E7399A3A} = {91099CC9-BBE5-46F2-A852-E2AE13C68AC2}
 		{E75FCB98-1893-4B87-8979-B4497A238452} = {91099CC9-BBE5-46F2-A852-E2AE13C68AC2}
+		{001E5377-A8C7-44FE-9422-04209738A6FD} = {91099CC9-BBE5-46F2-A852-E2AE13C68AC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6ED94B2-A4D9-4110-B040-F1C52AA17847}

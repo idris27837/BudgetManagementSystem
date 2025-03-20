@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Hangfire.AspNetCore" Version="1.8.6" />
+		<PackageReference Include="Hangfire.PostgreSql" Version="1.20.4" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0-rc.2" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<ProjectReference Include="..\CompetencyApp.Infrastructure\CompetencyApp.Infrastructure.csproj" />
+		<ProjectReference Include="..\CompetencyApp.Models\CompetencyApp.Models.csproj" />
+		<ProjectReference Include="..\CompetencyApp.ViewModels\CompetencyApp.ViewModels.csproj" />
+	</ItemGroup>
+
+</Project>
