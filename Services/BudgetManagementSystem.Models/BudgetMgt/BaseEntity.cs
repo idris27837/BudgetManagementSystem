@@ -14,7 +14,7 @@ namespace BudgetManagementSystem.Models.BudgetMgt
         [AuditIgnore]
         public int Id { get; set; }
         [AuditIgnore]
-        public Status RecordStatus { get; set; } = PMS.Models.Status.Active;
+        public Status RecordStatus { get; set; } = BudgetManagementSystem.Models.BudgetMgt.Status.Active;
         [AuditIgnore]
         public DateTime? CreatedAt { get; set; }
         public bool SoftDeleted { get; set; }

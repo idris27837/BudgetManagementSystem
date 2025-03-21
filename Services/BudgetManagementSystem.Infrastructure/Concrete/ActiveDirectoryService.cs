@@ -5,7 +5,9 @@ using Microsoft.Extensions.Logging;
 using System.DirectoryServices;
 using System.Runtime.Versioning;
 using DirectoryEntry = System.DirectoryServices.DirectoryEntry;
+using BudgetManagementSystem.Infrastructure.CustomConfig;
 using Encoder = Microsoft.Security.Application.Encoder;
+using Microsoft.Extensions.Options;
 
 namespace BudgetManagementSystem.Infrastructure.Concrete;
 

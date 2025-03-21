@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.Util
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.Models", "Services\BudgetManagementSystem.Models\BudgetManagementSystem.Models.csproj", "{7F7D7111-3824-4C2A-87EC-BE61FBAAD4B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetManagementSystem.DataAccessLayer", "Services\BudgetManagementSystem.DataAccessLayer\BudgetManagementSystem.DataAccessLayer.csproj", "{A3A2210F-E556-4013-B43E-6B0E6ACD1CA4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,10 +47,6 @@ Global
 		{7F7D7111-3824-4C2A-87EC-BE61FBAAD4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7D7111-3824-4C2A-87EC-BE61FBAAD4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7D7111-3824-4C2A-87EC-BE61FBAAD4B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A3A2210F-E556-4013-B43E-6B0E6ACD1CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3A2210F-E556-4013-B43E-6B0E6ACD1CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3A2210F-E556-4013-B43E-6B0E6ACD1CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3A2210F-E556-4013-B43E-6B0E6ACD1CA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,7 +56,6 @@ Global
 		{B71E094C-8028-49B9-98EF-EFAA539BF065} = {91099CC9-BBE5-46F2-A852-E2AE13C68AC2}
 		{85B647F2-AFE8-4F15-ABC0-5710BC35EE0E} = {91099CC9-BBE5-46F2-A852-E2AE13C68AC2}
 		{7F7D7111-3824-4C2A-87EC-BE61FBAAD4B9} = {91099CC9-BBE5-46F2-A852-E2AE13C68AC2}
-		{A3A2210F-E556-4013-B43E-6B0E6ACD1CA4} = {91099CC9-BBE5-46F2-A852-E2AE13C68AC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6ED94B2-A4D9-4110-B040-F1C52AA17847}

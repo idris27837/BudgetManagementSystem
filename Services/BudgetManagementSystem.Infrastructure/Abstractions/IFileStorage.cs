@@ -1,4 +1,7 @@
 ﻿
+using BudgetManagementSystem.Infrastructure.CustomConfig;
+using Microsoft.AspNetCore.Http;
+
 namespace BudgetManagementSystem.Infrastructure.Abstractions;
 
 public interface IFileStorage
