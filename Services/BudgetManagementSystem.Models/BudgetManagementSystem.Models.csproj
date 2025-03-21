@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Audit.EntityFramework.Core" Version="27.0.1" />
+    <PackageReference Include="Innofactor.EfCoreJsonValueConverter" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+  </ItemGroup>
+
 </Project>
